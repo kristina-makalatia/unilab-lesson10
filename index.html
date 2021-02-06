@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+	<title> Forms </title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header class="header-bg">
+		<div class="header-flex">
+			<a href="#"> Logo </a>
+			<nav class="navigation">
+				<ul class="nav-ul">
+					<li> <a href="#"> Home</a></li>
+					<li> <a href="#"> About</a></li>
+					<li> <a href="#"> Contact</a></li>
+				</ul>
+			</nav>
+			<div class="burger-icon">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+		<h1 class="title"> Lorem ipsum </h1>
+	</header>
+
+	<section class="section-size">
+		<div class="container section-title">
+			<h2> Lorem ipsum dolor sit</h2>
+			<div class="box-wraper">
+				<div class="box"> 
+					<div class="image-box">
+						<img src="img/icon1.svg" alt="icon">
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique </p> 
+				</div>
+				<div class="box"> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique </p> 
+				</div>
+				<div class="box"> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique </p> 
+				</div>
+				<div class="box"> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique </p> 
+				</div>
+				<div class="box"> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique </p> 
+				</div>
+				<div class="box"> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique </p> 
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<form class="form-box">
+		<div class="form-wraper">
+			<label for="fname"> Name </label>
+			<input class="input-wraper" type="text" id="fname" name="fisrtname" placeholder="Enter Your Name..." required>
+		</div>
+
+		<div class="form-wraper">
+			<label for="passw"> Password</label>
+			<input  class="input-wraper" type="password" name="password" id="passw" placeholder="Enter Your password..." required>
+		</div>
+
+		<div class="form-wraper">
+			<label for="passw"> Review</label>
+			<textarea class="texarea-wraper" placeholder="Enter Your review..."> </textarea>
+		</div>
+
+		<div>
+			<div>
+				<input type="checkbox" name="musichobby" id="music">
+				<label> Music </label>
+			</div>
+			<div>
+				<input type="checkbox" name="dancehobby" id="dance"> 
+				<label> Dance </label>
+			</div>
+		</div>
+
+		<div>
+			<div>
+				<input type="radio" name="gender" id="music">
+				<label> Male </label>
+			</div>
+			<div>
+				<input type="radio" name="gender" id="dance"> 
+				<label> Female </label>
+			</div>
+		</div>
+
+		<button class="button-form" type="submit"> Send </button>
+	</form>
+</body>
+</html>
